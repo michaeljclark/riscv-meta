@@ -37,6 +37,7 @@
 0x103  srw  sideleg    "Supervisor interrupt delegation register"             1.9-
 0x104  src  sie        "Supervisor interrupt-enable register"                 1.7-
 0x105  srw  stvec      "Supervisor trap handler base address"                 1.7-
+0x106  swr  scounteren "Supervisor counter enable"                            1.10-
 
 # Supervisor Trap Handling
 0x140  srw  sscratch   "Scratch register for supervisor trap handlers"        1.7-
@@ -95,6 +96,7 @@
 0x303  mrw  mideleg    "Machine interrupt delegation register"                1.9-
 0x304  mrw  mie        "Machine interrupt-enable register"                    1.7-
 0x305  mrw  mtvec      "Machine trap-handler base address"                    1.7-
+0x306  mrw  mcounteren "Machine counter enable"                               1.10-
 
 # Machine Trap Handling
 0x340  mrw  mscratch   "Scratch register for machine trap handlers"           1.7-
@@ -199,9 +201,9 @@
 0xB9F  mrw  mhpmcounter31h  "Upper 32 bits of mhpmcounter31, RV32I only"      1.9.1-
 
 # Machine Counter Setup
-0x320  mrw  mucounteren     "Machine interrupt-enable register"               1.9-
-0x321  mrw  mscounteren     "Supervisor-mode counter enable"                  1.9-
-0x322  mrw  mhcounteren     "Hypervisor-mode counter enable"                  1.9-
+0x320  mrw  mucounteren     "Machine interrupt-enable register"               1.9-1.9.1
+0x321  mrw  mscounteren     "Supervisor-mode counter enable"                  1.9-1.9.1
+0x322  mrw  mhcounteren     "Hypervisor-mode counter enable"                  1.9-1.9.1
 0x323  mrw  mhpmevent3      "Machine performance-monitoring event selector"   1.9.1-
 0x324  mrw  mhpmevent4      "Machine performance-monitoring event selector"   1.9.1-
 0x325  mrw  mhpmevent5      "Machine performance-monitoring event selector"   1.9.1-
