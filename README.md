@@ -23,3 +23,5 @@ This directory contains metadata for the RISC-V Instruction Set
 |`pseudos`              |Pseudo instructions|
 |`registers`            |Registers ABI definitions|
 |`types`                |Instruction types|
+
+riscv-meta is derived from [riscv-opcodes](https://github.com/riscv/riscv-opcodes)
