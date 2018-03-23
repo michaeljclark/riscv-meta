@@ -12,7 +12,7 @@ mv          addi                   rd,rs1      imm_eq_zero
 not         xori                   rd,rs1      imm_eq_n1
 neg         sub                    rd,rs2      rs1_eq_x0
 negw        subw                   rd,rs2      rs1_eq_x0
-sext.w      addiw                  rd,rs1      rs2_eq_x0
+sext.w      addiw                  rd,rs1      imm_eq_zero
 seqz        sltiu                  rd,rs1      imm_eq_p1
 snez        sltu                   rd,rs2      rs1_eq_x0
 sltz        slt                    rd,rs1      rs2_eq_x0
