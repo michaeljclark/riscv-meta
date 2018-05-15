@@ -39,6 +39,7 @@ r·a        aqrl,rd,rs2,(rs1)      rd rs1 rs2 aq rl
 r·l        aqrl,rd,(rs1)          rd rs1 aq rl
 r·f        pred,succ              pred succ
 r+sf       rs1                    rs1
+r+sfa      rs1,rs2                rs1 rs2
 cb         rs1,rs2,offset         crs1q cimmb
 cb·imm     rd,rs1,imm             crs1rdq cnzimmi
 cb·sh5     rd,rs1,imm             crs1rdq cimmsh5
