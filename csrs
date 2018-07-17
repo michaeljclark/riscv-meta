@@ -53,7 +53,7 @@
 
 # Supervisor Timers and Counters
 0xD00  sro  scycle     "Supervisor cycle counter"                             1.9-
-0xD01  sro  stime      "Supervisor wall-clock time"                           1.7-
+0xD01  sro  stime      "Supervisor wall-clock time"                           1.7-1.9
 0xD02  sro  sinstret   "Supervisor instructions-retired counter"              1.9-
 0xD80  sro  scycleh    "Upper 32 bits of scycle, RV32I only"                  1.9-,rv32
 0xD81  sro  stimeh     "Upper 32 bits of stime, RV32I only"                   1.7-,rv32
@@ -77,10 +77,10 @@
 
 # Hypervisor Timers and Counters
 0xE00  sro  hcycle     "Hypervisor cycle counter"                             1.7-1.9.1
-0xE01  sro  htime      "Hypervisor wall-clock time"                           1.7-1.9.1
+0xE01  sro  htime      "Hypervisor wall-clock time"                           1.7-1.9
 0xE02  sro  hinstret   "Hypervisor instructions-retired counter"              1.9-1.9.1
 0xE80  sro  hcycleh    "Upper 32 bits of hcycle, RV32I only"                  1.7-1.9.1,rv32
-0xE81  sro  htimeh     "Upper 32 bits of htime, RV32I only"                   1.7-1.9.1,rv32
+0xE81  sro  htimeh     "Upper 32 bits of htime, RV32I only"                   1.7-1.9,rv32
 0xE82  sro  hinstreth  "Upper 32 bits of hinstret, RV32I only"                1.9-1.9.1,rv32
 
 # Machine Information Registers
