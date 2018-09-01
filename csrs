@@ -106,9 +106,9 @@
 0x343  mrw  mtval      "Machine bad address or instruction"                   1.10-
 0x344  mrw  mip        "Machine interrupt pending"                            1.7-
 0x3A0  mrw  pmpcfg0    "Physical memory protection configuration"             1.10-
-0x3A0  mrw  pmpcfg1    "Physical memory protection configuration (RV32 only)" 1.10-
-0x3A0  mrw  pmpcfg2    "Physical memory protection configuration"             1.10-
-0x3A0  mrw  pmpcfg3    "Physical memory protection configuration (RV32 only)" 1.10-
+0x3A1  mrw  pmpcfg1    "Physical memory protection configuration (RV32 only)" 1.10-
+0x3A2  mrw  pmpcfg2    "Physical memory protection configuration"             1.10-
+0x3A3  mrw  pmpcfg3    "Physical memory protection configuration (RV32 only)" 1.10-
 0x3B0  mrw  pmpaddr0   "Physical memory protection address register"          1.10-
 0x3B1  mrw  pmpaddr1   "Physical memory protection address register"          1.10-
 0x3B2  mrw  pmpaddr2   "Physical memory protection address register"          1.10-
