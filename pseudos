@@ -48,7 +48,7 @@ rdtime      csrrs                  rd          rs1_eq_x0 csr_eq_0xc01
 rdinstret   csrrs                  rd          rs1_eq_x0 csr_eq_0xc02
 rdcycleh    csrrs                  rd          rs1_eq_x0 csr_eq_0xc80
 rdtimeh     csrrs                  rd          rs1_eq_x0 csr_eq_0xc81
-rdinstreth  csrrs                  rd          rs1_eq_x0 csr_eq_0xc80
+rdinstreth  csrrs                  rd          rs1_eq_x0 csr_eq_0xc82
 frcsr       csrrs                  rd          rs1_eq_x0 csr_eq_0x003
 frrm        csrrs                  rd          rs1_eq_x0 csr_eq_0x002
 frflags     csrrs                  rd          rs1_eq_x0 csr_eq_0x001
