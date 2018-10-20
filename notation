@@ -1,7 +1,7 @@
 # format of a line in this file:
 # <symbol> <alias> <arity> <description> <LaTeX code>
 
-=           ==          2       "Not Equal To"          =
+=           ==          2       "Equal To"              =
 ≠           !=          2       "Not Equal To"          \neq
 <           <           2       "Less Than"             <
 >           >           2       "Greater Than"          >
